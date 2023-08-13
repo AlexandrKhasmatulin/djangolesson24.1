@@ -1,8 +1,9 @@
 from django.urls import path
 
-from MyLessons.lessons.apps import LessonsConfig
+
 from rest_framework.routers import DefaultRouter
 
+from MyLessons.lessons.apps import LessonsConfig
 from MyLessons.lessons.views import CourseViewSet, LessonCreateAPIView, LessonListAPIView, LessonRetrieveAPIView, \
     LessonUpdateAPIView, LessonDestroyAPIView
 
